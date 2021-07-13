@@ -1,2 +1,0 @@
-the number of lines in toc.txt is :
-1 toc.txt
