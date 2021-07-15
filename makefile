@@ -4,4 +4,4 @@ README.md: guessinggame.sh
 	echo "- The date at which make was run :" >> README.md
 	date +"%A %d %B" >> README.md
 	echo "- The number of lines of code contained in guessinggame.sh :" >> README.md
-	wc -l guessinggame.sh >> README.md
+	wc -l guessinggame.sh | cut -c 1,2 >> README.md
